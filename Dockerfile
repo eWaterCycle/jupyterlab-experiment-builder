@@ -4,7 +4,7 @@ LABEL maintainer='Stefan Verhoeven <s.verhoeven@esciencecenter.nl'
 USER root
 
 RUN apt-get update && \ 
-    cat apt.txt | xargs apt install -y && \
+    apt install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++ && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

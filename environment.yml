@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+  - defaults
+  - ioam
+dependencies:
+  - iris=2.0.0=py36_1
+  - jupyterlab=0.31.12=py36_1
+  - ipyleaflet==0.7.2
+  - nodejs==8.10.0
+#  - holoviews==1.9.5
+  - geoviews==1.4.3
+  - xarray==0.10.2
+  - nc_time_axis
+  - pip:
+    - git+https://github.com/ioam/holoviews.git
