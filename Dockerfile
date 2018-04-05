@@ -22,3 +22,5 @@ RUN conda env update -n root -f /tmp/environment.yml && \
     rm -rf /home/$NB_USER/.node-gyp && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
+
+ENV JUPYTER_ENABLE_LAB=1
