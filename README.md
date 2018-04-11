@@ -1,5 +1,7 @@
 Jupyter Lab Docker image with eWaterCycle dependencies installed.
 
+[![](https://images.microbadger.com/badges/version/ewatercycle/jupyterlab-experiment-builder.svg)](https://hub.docker.com/r/ewatercycle/jupyterlab-experiment-builder/)
+
 # Usage
 
 Using https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook
