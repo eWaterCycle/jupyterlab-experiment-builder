@@ -13,3 +13,4 @@ dependencies:
   - nc_time_axis
   - pip:
     - git+https://github.com/ioam/holoviews.git
+    - jupyterlab_thredds

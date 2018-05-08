@@ -16,6 +16,7 @@ RUN conda env update -n root -f /tmp/environment.yml && \
     conda clean -tipsy && \
     jupyter labextension install --no-build jupyter-leaflet && \
     jupyter labextension install --no-build @pyviz/jupyterlab_holoviews && \
+    jupyter labextension install --no-build @ewatercycle/jupyterlab_thredds && \
     jupyter labextension install jupyter-matplotlib && \
     rm -rf $CONDA_DIR/share/jupyter/lab/staging && \
     rm -rf /home/$NB_USER/.cache/yarn && \
