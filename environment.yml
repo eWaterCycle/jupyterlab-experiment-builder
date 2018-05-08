@@ -4,13 +4,12 @@ channels:
   - ioam
 dependencies:
   - iris=2.0.0=py36_1
-  - jupyterlab=0.31.12=py36_1
-  - ipyleaflet==0.7.2
+  - jupyterlab=0.32.1=py36_0
+  - ipyleaflet==0.8.1
   - nodejs==8.10.0
-#  - holoviews==1.9.5
+  - holoviews==1.10.2
   - geoviews==1.4.3
-  - xarray==0.10.2
-  - nc_time_axis
+  - xarray==0.10.3
+  - nc_time_axis==1.0.2
   - pip:
-    - git+https://github.com/ioam/holoviews.git
-    - jupyterlab_thredds
+    - jupyterlab_thredds==0.1.0
