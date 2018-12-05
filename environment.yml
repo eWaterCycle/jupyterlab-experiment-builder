@@ -5,8 +5,7 @@ channels:
   - pyviz
 dependencies:
   - iris=2.2.0=py36_2
-  - cf_units==2.0.2
-  - cftime==1.0.1  
+  - cf_units==2.0.1
   - jupyterlab=0.35.4=py36_0
   - ipyleaflet==0.9.0
   - nodejs==8.10.0
