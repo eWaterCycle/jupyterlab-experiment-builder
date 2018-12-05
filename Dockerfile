@@ -18,11 +18,9 @@ RUN conda env update -n root -f /tmp/environment.yml && \
     jupyter labextension install --no-build @jupyterlab/hub-extension && \
     jupyter labextension install --no-build jupyterlab_bokeh && \
     jupyter labextension install --no-build jupyter-leaflet && \
-    jupyter labextension install --no-build @pyviz/jupyterlab_holoviews && \
+    jupyter labextension install --no-build @pyviz/jupyterlab_pyviz && \
     jupyter labextension install --no-build @ewatercycle/jupyterlab_thredds && \
     jupyter labextension install --no-build @jupyterlab/geojson-extension && \
-    jupyter labextension install --no-build jupyterlab_discovery && \
-    jupyter labextension install --no-build jupyterlab-toc && \
     jupyter labextension install jupyter-matplotlib && \
     rm -rf $CONDA_DIR/share/jupyter/lab/staging && \
     rm -rf /home/$NB_USER/.cache/yarn && \
