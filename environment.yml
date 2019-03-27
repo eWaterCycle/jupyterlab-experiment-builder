@@ -5,16 +5,20 @@ channels:
   - pyviz
 dependencies:
   - iris=2.2.0=py36_2
-  - cf_units==2.0.1
   - jupyterlab=0.35.4=py36_0
-  - ipyleaflet==0.9.0
+  - ipyleaflet==0.10.0
   - nodejs==8.10.0
-  - holoviews==1.10.9
-  - geoviews==1.5.3
-  - xarray==0.10.9
-  - notebook==5.7.2
-  - datashader==0.6.8
+  - holoviews==1.11.2
+  - geoviews==1.6.2
+  - xarray==0.11.3
+  - notebook==5.7.4
+  - datashader==0.6.9
   - pip:
     - jupyterlab_thredds==0.3.0
     - nc_time_axis==1.1.0
     - tqdm
+    - cf_units==2.1.1
+    - hydrostats==0.75
+    - cftime==1.0.3.4
+    - ipympl==0.2.1
+    - tornado==5.1.1  # Downgrade from 6, see https://github.com/jupyter/jupyter/issues/401
