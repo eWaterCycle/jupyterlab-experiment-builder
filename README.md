@@ -1,6 +1,6 @@
 # Deprecated
 
-The eWaterCycle python package docmentation and infra repo replaces the conda environment file. The eWaterCycle python package use container tech to isolate the models. Having a Dockerfile with Docker/Singularity inside of it is too complicated so we stop supporting this builder.
+The [eWaterCycle python package docmentation](https://ewatercycle.readthedocs.io/en/latest/system_setup.html) replaces the conda environment file. The eWaterCycle python package uses container tech to isolate the models. Having a Dockerfile with Docker/Singularity inside of it is too complicated so we have stopped supporting this builder.
 
 
 
