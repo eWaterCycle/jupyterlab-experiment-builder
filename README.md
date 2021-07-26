@@ -1,3 +1,9 @@
+# Deprecated
+
+The eWaterCycle conda environment replaces the environment file in this repository, see [eWaterCycle system setup page](https://ewatercycle.readthedocs.io/en/latest/system_setup.html) . The eWaterCycle python package uses container tech to isolate the models. Having a Dockerfile with Docker/Singularity inside of it is too complicated so we have stopped supporting this builder.
+
+
+
 Jupyter Lab Docker image with eWaterCycle dependencies installed.
 
 [![](https://images.microbadger.com/badges/version/ewatercycle/jupyterlab-experiment-builder.svg)](https://hub.docker.com/r/ewatercycle/jupyterlab-experiment-builder/)
